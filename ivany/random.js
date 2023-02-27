@@ -1,0 +1,1 @@
+var posts=["posts/d9e.html","posts/1bb1.html","posts/4dec.html"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
