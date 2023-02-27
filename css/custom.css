@@ -1002,7 +1002,7 @@ translate:-50%;
   color:white!important;
 }
 #nav {
-  padding: 0 calc((100% - 1490px)/ 2);
+  padding: 0 calc((100% - 1370px)/ 2);
 }
 
 #page-header.not-home-page + #content-inner #page{
@@ -1038,11 +1038,6 @@ li.categoryBar-list-item {
   }
 }
 @media screen and (max-width: 600px){
-  #bbTimeList {
-    position: absolute;
-    margin-top: -715px !important;
-    width: 97.5% !important;
-  }
 
   #page-header.nav-fixed #nav div.menus_items {
     opacity: 0 !important;
@@ -1141,40 +1136,16 @@ li.categoryBar-list-item {
     margin-left: 1010px;
     margin-bottom: 220px;
   }
-  #bbTimeList{
-    position: absolute;
-    margin-top: -495px !important;
-    width: 1470px !important;
-  }
   #recent-posts .recent-post-item:hover .blog-slider__img{
     -webkit-animation: banner 20s linear infinite;
     animation: banner 20s linear infinite;
   }
 }
-@media screen and (max-width:2000px){
-  #nav {
-    padding: 0 calc((100% - 1190px)/ 2);
-  }
-}
 
-@media screen and (min-width:1220px) and (max-width:2000px){
-  #bbTimeList {
-    position: absolute;
-    margin-top: -495px !important;
-    width: 1170px !important;
-  }
-}
 @media screen and (min-width:600px) and (max-width:2000px){
   #recent-posts .recent-post-item:hover .blog-slider__img{
     -webkit-animation: banner2 20s linear infinite;
     animation: banner2 20s linear infinite;
-  }  
-}
-@media screen and (min-width:600px) and (max-width:1220px){
-  #bbTimeList {
-    position: absolute;
-    margin-top: -495px !important;
-    width: 97% !important;
   }  
 }
 /* swiper微调 */
@@ -1698,24 +1669,13 @@ img.footer_mini_logo {
 }
 
 /* heo分类修复 */
-#category-bar {
-  background: var(--ivany-card-bg) !important;
-  border: var(--ivany-border) !important;
-  margin-top: 15px;
-  transition: all .3s ease-in-out;
-  height: 50px;
-  align-items: center;
-}
+
 .category-bar-item:hover a{
   color: var(--ivany-white) !important;
   padding: 0.4rem 0.9rem !important;
   border-radius: 8px !important;
 }
 
-#category-bar:hover{
-  border: var(--style-border-hover) !important;
-  box-shadow: none !important;
-}
 .category-bar-more {
   color: var(--font-color);
 }
@@ -1742,10 +1702,6 @@ img.footer_mini_logo {
 /* .layout > div:first-child:not(#post){
   margin-top: 50px;
 } */
-.layout>div:first-child.recent-posts{
-  margin-top: 120px;
-}
-
 #page-header.post-bg:not(.nav-fixed) #nav{
   position: fixed;
   z-index: 91;
@@ -1785,10 +1741,7 @@ img.footer_mini_logo {
   transition: all .3s ease-in-out;
   background-color: var(--ivany-card-bg) !important;
 }
-#bbTimeList:hover {
-  border: var(--style-border-hover) !important;
-  box-shadow: none !important;
-}
+
 /* footer修改 */
 #footer-wrap {
   color: var(--font-color) !important;
@@ -2839,11 +2792,78 @@ li.category-list-item:nth-of-type(8) {
     width: 100%
 }
 
+@media screen and (min-width: 768px) {
+  .layout {
+    max-width: 1400px !important;
+    padding: 1rem 1.5rem 0 1.5rem;
+  }
+  #recent-posts > .recent-post-item:not(:first-child) {
+    margin-top: 15px ;
+  }
+  #category-bar {
+    background: var(--ivany-card-bg) !important;
+    border: var(--ivany-border) !important;
+    transition: all .3s ease-in-out;
+    height: 50px;
+    align-items: center;
+  }
+  #category-bar:hover{
+    border: var(--style-border-hover) !important;
+    box-shadow: none !important;
+  }
+  #bbTimeList:hover {
+    border: var(--style-border-hover) !important;
+    box-shadow: none !important;
+    max-width: 1400px;
+  }
+}
 @media screen and (max-width: 768px) {
-    #home_top {
-        padding:0;
-        margin-top: 0
-    }
+  #home_top {
+      padding:0;
+      margin-top: 0
+  }
+  #bbTimeList {
+    margin-bottom: 0rem;
+    background: var(--ivany-blog-bg) !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+  #bber-talk .li-style{
+    padding-left: 1rem;
+  }
+  .category-bar-item a{
+    margin: 0 !important;
+  }
+  .category-bar-more{
+    padding-right: 0 !important;
+    align-items: center;
+    display: flex;
+  }
+  .layout{
+    padding: 0.5rem 1rem;
+  }
+  #category-bar{
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    background: var(--ivany-blog-bg) !important;
+    border: 0 !important;
+  }
+  #recent-posts > .recent-post-item:not(:first-child) {
+    margin-top: 0;
+  }
+  #category-bar:hover{
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+  #bbTime{
+    padding: 0 1rem 0.5rem 1rem !important;
+  }
+  #bbTimeList:hover {
+    border: 0 !important;
+    box-shadow: none !important;
+    max-width: 1400px;
+  }
+
 }
 
 .recent-top-post-group {
@@ -3006,7 +3026,7 @@ span.recent-post-top-text {
     align-content: center;
     padding-top: .5rem;
     font-weight: 700;
-    font-size: .8rem!important;
+    font-size: .97rem!important;
     padding: 0!important
 }
 
@@ -3091,7 +3111,6 @@ a.categoryButton i {
 
   .recent-post-top .categoryGroup {
     min-width: 130px !important;
-    margin-bottom: 0.5rem;
     margin-left: 1rem;
     max-height: 164px;
     overflow: hidden;
@@ -3419,4 +3438,133 @@ a.categoryButton:hover {
 }
 #recent-post-top .recent-post-item .post_cover {
     width: 100%;
+}
+#bbTime{
+  margin-top: 4em !important;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 1.5rem 0.5rem 1.5rem;
+  width: 100%;
+}
+a {
+  color: var(--ivany-fontcolor);
+}
+#about-page .logo{
+  font-size: 2.5rem;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+#about-page .small{
+  font-size: 1.5rem;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 1300px){
+  #todayCard{
+    display: none;
+  }
+}
+@media screen and (min-width: 1300px){
+  .topGroup .banner-button-group {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    display: flex;
+    transition: 0.3s;
+  }
+  .topGroup .todayCard {
+    position: absolute;
+    width: calc(600px + 1rem);
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: var(--ivany-card-bg);
+    border-radius: 12px;
+    margin-left: 0.5rem;
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    cursor: pointer;
+    pointer-events: all;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .topGroup .todayCard .todayCard-info {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 2;
+    color: var(--ivany-white);
+    max-width: 60%;
+    transition: 0.3s;
+  }
+  .topGroup .todayCard .todayCard-info .todayCard-tips {
+    opacity: 0.8;
+    font-size: 0.6rem;
+  }
+  .topGroup .todayCard .todayCard-info .todayCard-title {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  .topGroup .todayCard .todayCard-cover {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+    transition: 0.3s;
+  }
+  .topGroup .banner-button-group {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    display: flex;
+    transition: 0.3s;
+  }
+  .topGroup .banner-button {
+    background: var(--bywind-white-op);
+    border-radius: 20px;
+    color: var(--bywind-white);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transform: translateZ(0);
+    height: 40px;
+    width: 124px;
+    justify-content: center;
+  }
+  .topGroup .banner-button i {
+    margin-right: 8px;
+    font-size: 1rem;
+  }
+  .fa-circle-plus:before, .fa-plus-circle:before {
+    content: "\f055";
+  }
+  .topGroup .todayCard::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .topGroup .banner-button {
+    color: var(--ivany-white);
+  }
+  .topGroup .banner-button:hover {
+    background: var(--ivany-theme);
+    color: var(--ivany-white);
+  }
+  /* #topGroup:hover #todayCard{
+    opacity: 0;
+  } */
 }
