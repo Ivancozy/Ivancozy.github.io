@@ -3523,7 +3523,7 @@ a {
     line-height: 36px;
   }
   .topGroup .todayCard .todayCard-cover {
-    position: absolute;
+    /* position: absolute; */
     min-width: 100%;
     min-height: 100%;
     top: 0;
