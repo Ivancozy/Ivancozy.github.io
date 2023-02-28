@@ -2845,7 +2845,7 @@ li.category-list-item:nth-of-type(8) {
   #category-bar{
     margin-bottom: 0 !important;
     padding: 0 !important;
-    background: var(--ivany-blog-bg) !important;
+    background: 0 !important;
     border: 0 !important;
   }
   #recent-posts > .recent-post-item:not(:first-child) {
@@ -2970,7 +2970,7 @@ span.recent-post-top-text {
 @media screen and (max-width: 768px) {
     .recent-top-post-group {
         border-radius:0;
-        background: var(--ivany-background)
+        background: var(--ivany-blog-bg);
     }
 
     .recent-post-top-text {
