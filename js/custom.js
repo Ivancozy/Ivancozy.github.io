@@ -259,36 +259,6 @@ document.getElementsByClassName("back-home-button")[0].hover = function(){
 
 // addRightMenuClickEvent();
 
-// banner图片覆盖隐藏
-function bannertime() {
-  var topGroup = document.getElementById("topGroup");
-  var todayCard = document.getElementById("todayCard");
-  var bannertimer;
-  var isOver5Seconds = false;
-   
-  topGroup.addEventListener("mouseover", function() {
-    clearTimeout(bannertimer);
-    bannertimer = setTimeout(function () {
-      isOver5Seconds = true; //标记已超过n秒
-      todayCard.style.opacity = 0;
-      setTimeout(() => {
-        todayCard.style.zIndex = -1;
-      }, 300);
-    }, 1000);
-  });
-  topGroup.addEventListener("mouseout", function() {
-    clearTimeout(bannertimer);
-    if (!isOver5Seconds) { //如果未超过n秒，则清除计时并直接返回
-      return;
-    }
-    bannertimer = setTimeout(function () {
-      todayCard.style.opacity = 1;
-      todayCard.style.zIndex = 2;
-    }, 500);
-    
-  });
-  }
-bannertime();
 
 //菜单栏上下滚动变化
 document.addEventListener('pjax:complete', tonav,  clear, bannertime);
@@ -963,3 +933,34 @@ function topCategoriesBarScroll(){
 }, false);
   }
 }
+
+// banner图片覆盖隐藏
+function bannertime() {
+  var topGroup = document.getElementById("topGroup");
+  var todayCard = document.getElementById("todayCard");
+  var bannertimer;
+  var isOver5Seconds = false;
+   
+  topGroup.addEventListener("mouseover", function() {
+    clearTimeout(bannertimer);
+    bannertimer = setTimeout(function () {
+      isOver5Seconds = true; //标记已超过n秒
+      todayCard.style.opacity = 0;
+      setTimeout(() => {
+        todayCard.style.zIndex = -1;
+      }, 300);
+    }, 1000);
+  });
+  topGroup.addEventListener("mouseout", function() {
+    clearTimeout(bannertimer);
+    if (!isOver5Seconds) { //如果未超过n秒，则清除计时并直接返回
+      return;
+    }
+    bannertimer = setTimeout(function () {
+      todayCard.style.opacity = 1;
+      todayCard.style.zIndex = 2;
+    }, 500);
+    
+  });
+}
+bannertime();
