@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mirl.ml/manifest.json</loc>
+    <loc>https://blog.ivany.xyz/manifest.json</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/link/index.html</loc>
+    <loc>https://blog.ivany.xyz/link/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/music/index.html</loc>
+    <loc>https://blog.ivany.xyz/music/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/photos/index.html</loc>
+    <loc>https://blog.ivany.xyz/photos/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/index.html</loc>
+    <loc>https://blog.ivany.xyz/tags/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/essay/index.html</loc>
+    <loc>https://blog.ivany.xyz/posts/d9e.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/fcircle/index.html</loc>
+    <loc>https://blog.ivany.xyz/posts/1bb1.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/posts/d9e.html</loc>
+    <loc>https://blog.ivany.xyz/posts/4dec.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/posts/1bb1.html</loc>
+    <loc>https://blog.ivany.xyz/about/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/posts/4dec.html</loc>
+    <loc>https://blog.ivany.xyz/archives/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/about/index.html</loc>
+    <loc>https://blog.ivany.xyz/categories/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/archives/index.html</loc>
+    <loc>https://blog.ivany.xyz/collect/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/categories/index.html</loc>
+    <loc>https://blog.ivany.xyz/essay/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://mirl.ml/collect/index.html</loc>
+    <loc>https://blog.ivany.xyz/fcircle/index.html</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -129,7 +129,7 @@
   
 
   <url>
-    <loc>https://mirl.ml/</loc>
+    <loc>https://blog.ivany.xyz/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -137,63 +137,63 @@
 
   
   <url>
-    <loc>https://mirl.ml/tags/%E5%AE%89%E8%A3%85/</loc>
+    <loc>https://blog.ivany.xyz/tags/%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/Hexo/</loc>
+    <loc>https://blog.ivany.xyz/tags/Hexo/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/%E9%83%A8%E7%BD%B2/</loc>
+    <loc>https://blog.ivany.xyz/tags/%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <loc>https://blog.ivany.xyz/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/Vercel/</loc>
+    <loc>https://blog.ivany.xyz/tags/Vercel/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/Github/</loc>
+    <loc>https://blog.ivany.xyz/tags/Github/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.ivany.xyz/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/butterfly/</loc>
+    <loc>https://blog.ivany.xyz/tags/butterfly/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mirl.ml/tags/aplayer/</loc>
+    <loc>https://blog.ivany.xyz/tags/aplayer/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -202,7 +202,7 @@
 
   
   <url>
-    <loc>https://mirl.ml/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://blog.ivany.xyz/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
