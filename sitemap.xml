@@ -92,6 +92,15 @@
   </url>
   
   <url>
+    <loc>https://blog.ivany.xyz/about/index.html</loc>
+    
+    <lastmod>2023-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ivany.xyz/archives/index.html</loc>
     
     <lastmod>2023-03-15</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>https://blog.ivany.xyz/collect/index.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ivany.xyz/about/index.html</loc>
     
     <lastmod>2023-03-15</lastmod>
     
