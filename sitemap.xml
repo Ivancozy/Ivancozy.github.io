@@ -47,6 +47,24 @@
   </url>
   
   <url>
+    <loc>https://blog.ivany.xyz/essay/index.html</loc>
+    
+    <lastmod>2023-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ivany.xyz/fcircle/index.html</loc>
+    
+    <lastmod>2023-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ivany.xyz/posts/d9e.html</loc>
     
     <lastmod>2023-03-15</lastmod>
@@ -66,15 +84,6 @@
   
   <url>
     <loc>https://blog.ivany.xyz/posts/4dec.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ivany.xyz/about/index.html</loc>
     
     <lastmod>2023-03-15</lastmod>
     
@@ -110,16 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ivany.xyz/essay/index.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ivany.xyz/fcircle/index.html</loc>
+    <loc>https://blog.ivany.xyz/about/index.html</loc>
     
     <lastmod>2023-03-15</lastmod>
     
